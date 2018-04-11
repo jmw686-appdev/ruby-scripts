@@ -12,35 +12,17 @@ BUT — again, your main task is to **ask questions** about [variables, methods
 
 Follow the usual setup steps:
 
- 1. Open your same old Cloud9 workspace.
- 1. Close all open tabs/IDE panes from the last project you were working on — it's very easy to get confused with too many tabs going.
- 1. In the left-sidebar, the file "drawer", click the gear icon in the top-right and select "Collapse All Folders" to fold away all of the stuff from the last project you were working on.
- 1. Open a new Terminal prompt by clicking the green ⨁.
- 1. Ensure that you're in your `workspace` folder — if not,
-
-    ```
-    cd ~/workspace
-    ```
-
- 1. Download this project to your workspace:
-
-    ```
-    git clone https://github.com/appdev-projects/ruby_scripts
-    ```
-
- 1. Navigate into the new project folder:
-
-    ```
-    cd ruby_scripts
-    ```
-
- 1. Set up the project (ensure that your workspace has the required libraries installed, etc):
+ 1. Ensure that you've forked this repository to your own GitHub account. So, you should have a copy at `https://github.com/[YOUR USERNAME]/ruby-intro`.
+ 1. Follow the [Starting on a project with Cloud9](https://guides.firstdraft.com/getting-started-with-cloud9.html) guide to set up your workspace.
+ 1. I always recommend closing as many browsers tabs as possible from the last project you were working on — it's very easy to get confused with too many tabs going.
+ 1. At a Terminal prompt, set up the project (install a bunch of powerful libraries on the workspace, whatever the project depends upon, etc):
 
     ```
     bin/setup
     ```
 
- 1. Usually, at this point we launch our Rails application server with `bin/setup`. In this project, **we won't**. Instead, run a tiny little command-line script that I've prepared:
+ 1. Open a new Terminal prompt by clicking the green ⨁.
+ 1. Usually, at this point we launch our Rails application server. In this project, **we won't**. Instead, run a tiny little command-line script that I've prepared:
 
     ```
     rails hi
@@ -55,6 +37,8 @@ Follow the usual setup steps:
   1. The code to make this happen is in `lib/tasks/hello.rake`; read it and try to make out what's what.
 
 ## Tasks to write
+
+We're going to write some more command-line-only Ruby programs.
 
 ### rails bye
 
