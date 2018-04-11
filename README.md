@@ -72,11 +72,13 @@ outputs
 
 ### rails todays_date
 
+In `todays_date.rake`, write some code such that the command
+
 ```
 rails todays_date
 ```
 
-should output
+outputs
 
 ```
 Wed, 17 Jan 2018
@@ -86,11 +88,13 @@ Wed, 17 Jan 2018
 
 ### rails tgif
 
+In `tgif.rake`, write some code such that the command
+
 ```
 rails tgif
 ```
 
-should output
+outputs
 
 ```
 "Yay, it's Friday!"
@@ -104,11 +108,13 @@ if today is Friday; if not, it should output
 
 ### rails fortune
 
+In `fortune.rake`, write some code such that the command
+
 ```
 rails fortune
 ```
 
-should output a random fortune from the provided list, something like
+outputs a random fortune from the provided list, something like
 
 ```
 "Bide your time, for success is near"
@@ -118,7 +124,9 @@ Each time `rails fortune` is run, a different fortune should be displayed.
 
 ### rails quote
 
-should output a random quotation from the provided list, something like
+In `quote.rake`, write some code such that the command
+
+outputs a random quotation from the provided list, something like
 
 ```
 "A person who chases two rabbits catches neither. -- Confucius"
@@ -128,11 +136,13 @@ Each time `rails quote` is run, a different quotation should be displayed.
 
 ### rails play_rock
 
+In `rps.rake`, write some code such that the command
+
 ```
 rails play_rock
 ```
 
-should output "We played rock!", select a random move for the computer, and output the outcome; something like
+outputs "We played rock!", select a random move for the computer, and output the outcome; something like
 
 ```
 "We played rock."
@@ -144,11 +154,15 @@ Each time `rails play_rock` is run, a different computer move and outcome should
 
 ### rails play_paper
 
+In `rps.rake`, write some code such that the command
+
 ```
 rails play_paper
 ```
 
-should output "We played paper!", select a random move for the computer, and output the outcome; something like
+In `rps.rake`, write some code such that the command
+
+outputs "We played paper!", select a random move for the computer, and output the outcome; something like
 
 ```
 "We played paper."
@@ -160,11 +174,13 @@ Each time `rails play_paper` is run, a different computer move and outcome shoul
 
 ### rails play_scissors
 
+In `rps.rake`, write some code such that the command
+
 ```
 rails play_scissors
 ```
 
-should output "We played rock!", select a random move for the computer, and output the outcome; something like
+outputs "We played rock!", select a random move for the computer, and output the outcome; something like
 
 ```
 "We played rock."
@@ -176,17 +192,21 @@ Each time `rails play_scissors` is run, a different computer move and outcome sh
 
 ### rails example_input_from_file
 
-This task is already complete, but examine it and try to figure out what it is doing.
+Examine `file_input.rake`. `rails example_input_from_file` is already complete, but read it and try to figure out what it is doing.
 
 Locate `lib/input_files/example_input.txt`, modify the copy in it, and then run `rails example_input_from_file` again.
 
+Create your own input file, put some content in it, and make `rake your_own_input_from_file` do something interesting.
+
 ### rails word_count
+
+In `word_count.rake`, write some code such that the command
 
 ```
 rails word_count
 ```
 
-should read the contents of `lib/input_files/word_count_text.txt` and, based on what's in it, output something like
+reads the contents of `lib/input_files/word_count_text.txt` and, based on what's in it, output something like
 
 ```
 "File input: The first draft is just you telling yourself the story.\n"
@@ -199,11 +219,13 @@ Try modifying the copy in `word_count_text.txt` and see if your program still pr
 
 ### rails loan_payment
 
+In `loan_payment.rake`, write some code such that the command
+
 ```
 rails loan_payment
 ```
 
-should read the contents of
+reads the contents of
 
  - `lib/input_files/loan_payment_apr.txt`
  - `lib/input_files/loan_payment_years.txt`
@@ -226,11 +248,13 @@ Try modifying the copy in `loan_payment_principal.txt` and see if your program s
 
 ### rails count_and_sort
 
+In `count_and_sort.rake`, write some code such that the command
+
 ```
 rails count_and_sort
 ```
 
-should read the contents of `lib/input_files/descriptive_statistics_numbers.txt` and, based on what's in it, output something like
+reads the contents of `lib/input_files/descriptive_statistics_numbers.txt` and, based on what's in it, output something like
 
 ```
 "Your numbers:"
@@ -264,12 +288,13 @@ should read the contents of `lib/input_files/descriptive_statistics_numbers.txt`
 
 ### rails minimum
 
+In `minimum.rake`, write some code such that the command
 
 ```
 rails minimum
 ```
 
-should read the contents of `lib/input_files/descriptive_statistics_numbers.txt` and, based on what's in it, output something like
+reads the contents of `lib/input_files/descriptive_statistics_numbers.txt` and, based on what's in it, output something like
 
 ```
 "Your numbers:"
@@ -290,11 +315,13 @@ should read the contents of `lib/input_files/descriptive_statistics_numbers.txt`
 
 ### rails maximum
 
+In `maximum.rake`, write some code such that the command
+
 ```
 rails maximum
 ```
 
-should read the contents of `lib/input_files/descriptive_statistics_numbers.txt` and, based on what's in it, output something like
+reads the contents of `lib/input_files/descriptive_statistics_numbers.txt` and, based on what's in it, output something like
 
 ```
 "Your numbers:"
@@ -315,11 +342,13 @@ should read the contents of `lib/input_files/descriptive_statistics_numbers.txt`
 
 ### rails range
 
+In `range.rake`, write some code such that the command
+
 ```
 rails range
 ```
 
-should read the contents of `lib/input_files/descriptive_statistics_numbers.txt` and, based on what's in it, output something like
+reads the contents of `lib/input_files/descriptive_statistics_numbers.txt` and, based on what's in it, output something like
 
 ```
 "Your numbers:"
@@ -340,11 +369,13 @@ should read the contents of `lib/input_files/descriptive_statistics_numbers.txt`
 
 ### rails sum
 
+In `sum.rake`, write some code such that the command
+
 ```
 rails sum
 ```
 
-should read the contents of `lib/input_files/descriptive_statistics_numbers.txt` and, based on what's in it, output something like
+reads the contents of `lib/input_files/descriptive_statistics_numbers.txt` and, based on what's in it, output something like
 
 ```
 "Your numbers:"
@@ -365,11 +396,13 @@ should read the contents of `lib/input_files/descriptive_statistics_numbers.txt`
 
 ### rails mean
 
+In `mean.rake`, write some code such that the command
+
 ```
 rails mean
 ```
 
-should read the contents of `lib/input_files/descriptive_statistics_numbers.txt` and, based on what's in it, output something like
+reads the contents of `lib/input_files/descriptive_statistics_numbers.txt` and, based on what's in it, output something like
 
 ```
 "Your numbers:"
@@ -390,11 +423,13 @@ should read the contents of `lib/input_files/descriptive_statistics_numbers.txt`
 
 ### rails median
 
+In `median.rake`, write some code such that the command
+
 ```
 rails median
 ```
 
-should read the contents of `lib/input_files/descriptive_statistics_numbers.txt` and, based on what's in it, output something like
+reads the contents of `lib/input_files/descriptive_statistics_numbers.txt` and, based on what's in it, output something like
 
 ```
 "Sorted Numbers:"
@@ -415,11 +450,13 @@ should read the contents of `lib/input_files/descriptive_statistics_numbers.txt`
 
 ### rails standard_deviation
 
+In `standard_deviation.rake`, write some code such that the command
+
 ```
 rails standard_deviation
 ```
 
-should read the contents of `lib/input_files/descriptive_statistics_numbers.txt` and, based on what's in it, output something like
+reads the contents of `lib/input_files/descriptive_statistics_numbers.txt` and, based on what's in it, output something like
 
 ```
 "Your numbers:"
@@ -440,11 +477,13 @@ should read the contents of `lib/input_files/descriptive_statistics_numbers.txt`
 
 ### rails mode
 
+In `mode.rake`, write some code such that the command
+
 ```
 rails mode
 ```
 
-should read the contents of `lib/input_files/descriptive_statistics_numbers.txt` and, based on what's in it, output something like
+reads the contents of `lib/input_files/descriptive_statistics_numbers.txt` and, based on what's in it, output something like
 
 ```
 "Sorted Numbers:"
@@ -464,6 +503,8 @@ should read the contents of `lib/input_files/descriptive_statistics_numbers.txt`
 ```
 
 ### rails scrape_movies
+
+In `scrape_movies.rake`, write some code such that the command
 
 ```
 rails scrape_movies
