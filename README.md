@@ -42,7 +42,7 @@ We're going to write some more command-line-only Ruby programs.
 
 ### rails bye
 
-Create a similar script in a file `lib/tasks/bye.rake` such that:
+Create a new file, `lib/tasks/bye.rake`, and then add code to it similar to the code in `hello.rake` such that:
 
 ```
 rails bye
