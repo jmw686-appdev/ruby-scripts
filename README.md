@@ -12,7 +12,7 @@ BUT — again, your main task is to **ask questions** about [variables, methods
 
 Follow the usual setup steps:
 
- 1. Ensure that you've forked this repository to your own GitHub account. So, you should have a copy at `https://github.com/[YOUR USERNAME]/ruby-intro`.
+ 1. Ensure that you've forked this repository to your own GitHub account. So, you should have a copy at `https://github.com/[YOUR USERNAME]/ruby-scripts`.
  1. Follow the [Starting on a project with Cloud9](https://guides.firstdraft.com/getting-started-with-cloud9.html) guide to set up your workspace.
  1. I always recommend closing as many browsers tabs as possible from the last project you were working on — it's very easy to get confused with too many tabs going.
  1. At a Terminal prompt, set up the project (install a bunch of powerful libraries on the workspace, whatever the project depends upon, etc):
@@ -65,7 +65,7 @@ rails todays_date
 outputs
 
 ```
-Wed, 17 Jan 2018
+Wed, 11 Apr 2018
 ```
 
 (but replace with the real current date)
