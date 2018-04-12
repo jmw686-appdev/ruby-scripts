@@ -51,6 +51,7 @@ group :development, :test do
   gem 'grade_runner', github: 'firstdraft/grade_runner'
   gem 'pry-rails'
   gem 'web_git', github: 'firstdraft/web_git'
+  gem 'awesome_print'
 end
 
 group :development do

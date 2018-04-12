@@ -18,7 +18,6 @@ task :standard_deviation do
   #    - we square the difference
   #  - the variance is the mean of the squared differences
 
-
   # STANDARD DEVIATION
   # ==================
   # To find the standard deviation of a set,

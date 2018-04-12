@@ -11,6 +11,5 @@ task :word_count do
   # The text from the file is in the variable 'text'.
   # The special word from the file is in the variable 'special_word'.
   # =====================================================================
-
-
+  
 end

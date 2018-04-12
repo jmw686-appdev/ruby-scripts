@@ -16,5 +16,4 @@ task :range do
   #  - Find the maximum
   #  - Find the minimum
   #  - Subtract the latter from the former
-
 end
