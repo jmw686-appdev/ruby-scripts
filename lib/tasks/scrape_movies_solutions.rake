@@ -17,6 +17,8 @@ namespace :solution do
       title = one_movie_node.css("h4").text.strip
 
       # SelectorGadget is awesome for difficult to diagnose CSS selectors!
+      # But to really level up, play the game CSS Diner
+      
       director = one_movie_node.css(".outline+ .txt-block a").text.strip
       genre = one_movie_node.css(".cert-runtime-genre span").text.strip
       runtime = one_movie_node.css("time").text.strip
