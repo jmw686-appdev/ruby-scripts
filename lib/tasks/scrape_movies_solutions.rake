@@ -25,10 +25,10 @@ namespace :solution do
       description = one_movie_node.css(".overview-top .outline").text.strip
 
       movie_hash = Hash.new
-      movie_hash[:title] = title
-      movie_hash[:genre] = genre
-      movie_hash[:runtime] = runtime
-      movie_hash[:description] = description
+      movie_hash.store(:title, title)
+      movie_hash.store(:genre, genre)
+      movie_hash.store(:runtime, runtime)
+      movie_hash.store(:description, description)
 
       list_of_movies.push(movie_hash)
     end
