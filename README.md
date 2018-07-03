@@ -164,11 +164,11 @@ In `rps.rake`, write some code such that the command
 rails play_scissors
 ```
 
-outputs "We played rock!", select a random move for the computer, and output the outcome; something like
+outputs "We played scissors!", select a random move for the computer, and output the outcome; something like
 
 ```
-"We played rock."
-"The computer chose scissors."
+"We played scissors."
+"The computer chose paper."
 "We won!"
 ```
 
